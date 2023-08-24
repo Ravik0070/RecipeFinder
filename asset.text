@@ -1,0 +1,44 @@
+background-image: linear-gradient(to left bottom, #ec2674, #e4125a, #da0040, #cd0026, #bd0707);
+
+
+background-image: linear-gradient(to left bottom, #fc093f, #fa163e, #f91e3d, #f7253c, #f52a3b, #f53240, #f63944, #f64049, #f74b54, #f8555e, #f95f68, #f96872);
+background-image: linear-gradient(to left bottom, #fc093f, #fa163e, #f91e3d, #f7253c, #f52a3b, #f53240, #f63944, #f64049);
+
+
+
+
+
+
+
+//grid
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 7 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 6; }
+.div3 { grid-area: 2 / 2 / 7 / 6; }
+
+
+/// for double banner
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 7 / 2; }
+.div2 { grid-area: 1 / 2 / 3 / 6; }
+.div3 { grid-area: 3 / 2 / 7 / 6; }
+<div class="parent">
+<div class="div1"> </div>
+<div class="div2"> </div>
+<div class="div3"> </div>
+</div>
