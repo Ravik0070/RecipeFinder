@@ -10,7 +10,7 @@ This project is shows how to create a reactjs project, where React is used for t
 - Open in VScode
 - Open terminal
  * npm install
- * 
+
 ## NOTE
 Make Sure to Create an "upload" folder in public directory as for images upload & store  for local **multer** is used, you can change it with other storage service.
 
@@ -23,5 +23,5 @@ If you found and issue or would like to submit some improvement to this project,
 ## KNOWN ISSUES
 As this is a learnig project, one or two features might not work for now properly.
 
-## API USED IN THIS FOR THE DATA IS : [Themealdb](https://www.themealdb.com/api.php)
+## API USED IN THIS FOR THE DATA : [Themealdb](https://www.themealdb.com/api.php)
 
